@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fotos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fotos img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.foto_espacio {
+  width: 20%;
+  margin-left: 10px;
+}
+
+.boton_port {
+  margin-left: 15px;
+  border-radius: 10px;
+  background-color: white !important;
+  color: black !important;
+}
+
+.boton_port:hover {
+  color: white !important;
+  background-color: black !important;
+}
+
+/*# sourceMappingURL=portfolio.css.map */

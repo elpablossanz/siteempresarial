@@ -1,0 +1,32 @@
+@import '_variables';
+* {
+    box-sizing: border-box;
+    font-family: $fuente;
+  }
+.fotos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.fotos img{
+    width: 100%;
+    border-radius: 10px;
+}
+.foto_espacio{
+      width: 20%;
+      margin-left: 10px;
+}
+.boton_port{
+      margin-left: 15px;
+      border-radius: 10px;
+      background-color: $btn_filtrado !important;
+      color: $filtrado_letras !important;
+}
+.boton_port:hover{
+    color: $btn_filtrado !important;
+    background-color: $filtrado_letras !important;
+}

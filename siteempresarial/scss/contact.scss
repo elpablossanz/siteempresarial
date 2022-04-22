@@ -1,0 +1,52 @@
+@import '_variables';
+@import '_funciones';
+* {
+    box-sizing: border-box;
+    font-family: $fuente;
+  }
+.fotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.fotos img{
+    width: 100%;
+    border-radius: 10px;
+}
+.foto_mapa{
+    width: 100%;
+}
+.fomr{
+    justify-content: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-top: 10px;
+    
+}
+.fomr{
+    display: flex;
+}
+.boton_cont{
+    background-color: $btn_mensaje !important;
+    color: $mensaje_letras !important;
+    @include formulario;
+}
+.texto{
+    @include formulario;
+}
+hr{
+    @include formulario;
+    background: $degradado;
+    height: 10px;
+}
+.form_titulo{
+margin-left: 5px;
+}
+.mensaje{
+    @include formulario;
+}

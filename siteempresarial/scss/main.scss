@@ -1,0 +1,35 @@
+@import '_variables';
+@import '_funciones';
+* {
+    box-sizing: border-box;
+    font-family: $fuente;
+  }
+  
+.container{
+    background-color: $principal_fondo;
+}
+#heade{
+    background-color: $cabezera_fondo;
+}
+.iconos{
+    margin-right: 20px;
+    
+}
+py-5{
+    background-color: $fondo;
+}
+#carouselExampleIndicators{
+    @include carrusel_width;
+}
+.carousel-item{
+   @include carrusel_width; 
+}
+.input-group{
+    width: 200px;
+}
+.form-control{
+    width: 200px !important;
+}
+.ejemplo{
+    width: 250px;
+}

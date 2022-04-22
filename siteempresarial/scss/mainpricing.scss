@@ -1,0 +1,45 @@
+@import '_variables';
+@import '_funciones';
+* {
+    box-sizing: border-box;
+    font-family: $fuente;
+  }
+  
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.preciobajo{
+   @include precios;
+}
+.precionormal{
+    @include precios;
+
+}
+.precioalto{
+    @include precios;
+}
+.titulos{
+    text-align: center;
+    font-size: 25px;
+}
+
+.descripcion{
+    text-align: center;
+    background-color: $descripcion_fondo;
+    color: $descripcioin_texto;
+}
+.precio{
+    text-align: center;
+}
+.boton{
+    @include btn_width;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: $btn_precio;
+    color: $btn_filtrado;
+    border-radius: 10px;
+    text-align: center;
+    
+}
